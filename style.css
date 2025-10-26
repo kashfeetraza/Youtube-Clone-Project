@@ -1,0 +1,379 @@
+/* *{ */
+    /* margin: 0;
+    padding: 0; */
+/* } */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
+
+*{
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: rgb(247,247,247);
+}
+.fullscreen{
+    /* border: 2px solid rgb(167, 5, 5); */
+    width: 98.10%;
+    height: 2000px;
+    display: flex;
+}
+
+.leftsidebox{
+    width: 4%;
+    /* border: 2px solid rgb(218, 23, 130); */
+    height: 1000px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav{
+    width: 1250px;
+    /* border: 2px solid rgb(56, 8, 36); */
+    height: 50px;
+    display: flex;
+}
+.twobtn{
+    width: 1250px;
+    /* border: 2px solid rgb(56, 8, 36); */
+    height: 40px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.shortbtn{
+    width: 1250px;
+    /* border: 2px solid rgb(56, 8, 36); */
+    height: 40px;
+    
+}
+.optionsfornext{
+    width: 1250px;
+    /* border: 2px solid rgb(56, 8, 36); */
+    height: 60px;
+    /* position: relative; */
+    
+}
+.threeoptionvideo{
+    width: 1250px;
+    /* border: 2px solid rgb(56, 8, 36); */
+    height: 350px;
+    display: flex;
+    
+}
+.shortvideo{
+    width: 1250px;
+    /* border: 2px solid rgb(56, 8, 36); */
+    height: 520px;
+    display: flex;
+}
+
+.opt1{
+    width: 48px;
+    /* border: 2px solid rgb(56, 8, 36); */
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.opt1 img{
+    align-items: center;
+
+}
+
+.opt2{
+    width: 48px;
+    /* border: 2px solid rgb(56, 8, 36); */
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imghome{
+    /* border: 2px solid rgb(56, 8, 36); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imghometext{
+    /* border: 2px solid rgb(56, 8, 36); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    font-size: 10px;
+    font-weight: 400;
+}
+.logo{
+     width: 120px;
+    /* border: 2px solid rgb(56, 8, 36); */
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    position: relative;
+}
+.youtubetext{
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.searchbar{
+    width: 780px;
+    /* border: 2px solid rgb(97, 7, 26); */
+    height: 40px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 10px;
+}
+.searchbarsize button{
+    /* border: 2px solid rgb(33, 19, 87); */
+    width: 50px;
+    height: 35px;
+    border: 1px solid rgb(231, 217, 217);
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: rgb(231, 217, 217);
+}
+.searchbarsize{
+    /* border: 2px solid rgb(11, 163, 31); */
+    /* border: 2px solid rgb(2, 75, 88); */
+    width: 70%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.searchbarsize input{
+    border: 2px solid rgb(231, 217, 217);
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 94%;
+    height: 30px;
+    /* border: rgb(194, 188, 188); */
+    border-right: 1px solid rgb(231, 217, 217);
+    padding-left: 20px;
+    font-size: larger;
+    color: rgb(14, 13, 13);
+}
+.searchbarsize button img{
+    background-color: rgb(231, 217, 217);
+    padding-right: 10px;
+    padding-top: 2px;
+}
+
+.recordoptn{
+    width: 150px;
+    /* border: 2px solid rgb(56, 8, 36); */
+    height: 40px;
+    display: flex;
+    justify-content: start;
+    
+    align-items: center;
+}
+.micbtn button{
+    padding: 4px;
+    /* margin-left: 4px; */
+    border-radius: 50px;
+    border: 1px solid rgb(242,242,242);
+    background-color: rgb(231, 217, 217);
+}
+.micbtn button img{
+    background-color: rgb(231, 217, 217);
+    
+}
+.createbtn{
+    width: 100px;
+    /* border: 2px solid rgb(56, 8, 36); */
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.createbtn button{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-around;
+    /* gap: 5px; */
+    width: 100%;
+    height: 35px;
+    border: rgb(231, 217, 217);
+    border-radius: 20px;
+    background-color: rgb(231, 217, 217);
+}
+.createText{
+    font-size: 16px;
+    font-weight: 500;
+    background-color: rgb(231, 217, 217);
+}
+.plusimg img{
+    background-color: rgb(231, 217, 217);
+    /* width: 100%;
+    height: 100%; */
+    
+}
+
+.notification{
+     width: 50px;
+    /* border: 2px solid rgb(56, 8, 36); */
+    height: 40px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    /* padding: 10px; */
+    
+}
+.bellicon{
+    /* border: 2px solid rgb(255, 17, 156); */
+
+}
+.profilepic{
+    width: 50px;
+    /* border: 2px solid rgb(56, 8, 36); */
+    height: 40px;
+    
+}
+
+.optionsfornext ul{
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    gap: 10px;
+    list-style: none;
+    /* position: absolute; */
+    /* top: 0px */
+    /* left: 80px; */
+}
+
+
+.optionsfornext ul li button{
+    /* border: 2px solid rgb(56, 8, 36); */
+    font-size: 14px;
+    font-weight: 500;
+    border-radius:5px ;
+    background-color: rgb(231, 217, 217);
+    padding: 2px;
+    border: transparent;
+    padding: 8px;
+}
+
+.pk{
+    font-size: 10px;
+    color: rgb(134, 131, 131);
+    position: absolute;
+    top:4px;
+    left: 107px;
+}
+
+.firstvideo{
+    width: 416px;
+    height: 348px;
+    /* border: 2px solid hotpink; */
+}
+
+.videoimg{
+    /* border: 2px solid rgb(31, 13, 22); */
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.videoimg img{
+    border-radius: 10px;
+}
+
+.lowerdiv{
+    height: 100px;
+    /* border: 2px solid rgb(31, 13, 22); */
+    display: flex;
+}
+
+.divforlogopic{
+    /* border: 2px solid rgb(31, 13, 22); */
+    width: 50px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.channelpic{
+    width: 70%;
+}
+.channelpic img{
+    /* padding-top: 10px; */
+    border-radius: 80px;
+}
+.divforlogotext{
+    height: 90px;
+    /* border: 2px solid rgb(31, 13, 22); */
+    width: 366px;
+}
+.divforlogotext {
+    /* border: 2px solid rgb(31, 13, 22); */
+    /* font-size: 16px; */
+}
+.title{
+    padding: 5px;
+    /* border: 2px solid rgb(31, 13, 22); */
+    height: 40px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.viewsandtime{
+    /* padding: 5px; */
+    /* border: 2px solid rgb(31, 13, 22); */
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(94, 91, 127);
+}
+
+.twobtn button{
+    width: 207px;
+    height: 30px;
+    background-color: white;
+    color: blue;
+    border: 1px solid rgb(214, 203, 203);
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.shortvideo1{
+    /* border: 2px solid rgb(31, 13, 22); */
+    width: 250px;
+    height: 517px;
+}
+.shortvideothumnail{
+    /* border: 2px solid rgb(31, 13, 22); */
+    height: 390px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shortvideothumnail img{
+    border-radius: 20px;
+}
+
+.shortvideothumnailtext{
+    /* border: 2px solid rgb(31, 13, 22); */
+    height: 120px;
+}
+.shortvideotext{
+     /* border: 2px solid rgb(31, 13, 22); */
+    height: 75px;
+    padding: 5px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.viewtext{
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 500;
+}
